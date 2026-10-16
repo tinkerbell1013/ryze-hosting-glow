@@ -53,10 +53,6 @@ const FeaturesSection = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          {features.map((feature, index) => (
-          ))}
-        </div>
       </div>
     </section>
   );
