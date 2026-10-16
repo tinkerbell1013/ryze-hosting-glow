@@ -7,12 +7,27 @@ const AffiliateSection = () => {
     <section id="affiliate" className="py-20 relative">
       <div className="container mx-auto px-4">
         <Card className="relative overflow-hidden border-0 shadow-2xl bg-gradient-primary p-8 md:p-12">
+          {/* Pattern overlay */}
+          <div className="absolute inset-0 opacity-10">
+            <div className="absolute inset-0" style={{
+              backgroundImage: `repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.1) 35px, rgba(255,255,255,.1) 70px)`,
+            }} />
+          </div>
 
           <div className="relative z-10 max-w-4xl mx-auto text-center text-white">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 mb-6">
               <Gift className="w-4 h-4" />
               <span className="text-sm font-medium">Affiliate Program</span>
             </div>
+
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              Earn with RyzeHosting
+            </h2>
+            <p className="text-xl mb-8 text-white/90">
+              Join our affiliate program and earn up to 20% commission on every sale.
+              <br className="hidden md:block" />
+              Get paid monthly with no minimum payout threshold.
+            </p>
 
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
