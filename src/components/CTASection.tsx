@@ -11,6 +11,16 @@ const CTASection = () => {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-primary opacity-20 dark:opacity-10 rounded-full blur-3xl animate-pulse-glow" />
       
       <div className="container mx-auto px-4 relative z-10">
+        <div className="max-w-3xl mx-auto text-center">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6">
+            <Rocket className="w-4 h-4 text-primary" />
+            <span className="text-sm font-medium">Ready to Launch?</span>
+          </div>
+          
+          <h2 className="text-4xl md:text-6xl font-bold mb-6">
+            Start Your Server in{" "}
+            <span className="gradient-text">Seconds</span>
+          </h2>
           
           <p className="text-xl text-muted-foreground mb-8">
             Join thousands of gamers and developers who trust RyzeHosting
